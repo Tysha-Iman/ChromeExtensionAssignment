@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Treasure Map Deadhand';
+    src: url('TreasureMapDeadhand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'treasuremap';
+    src: url('treasuremap.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

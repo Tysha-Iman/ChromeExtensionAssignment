@@ -3,7 +3,8 @@
     "name": "Extension Example",
     "description": "Practicing Chrome Extensions",
     "version": "1.0",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab",
+        "fontSettings"],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
@@ -14,12 +15,16 @@
      ],
     "action": {
         "default_icon": {
-            "32":"/images/icon.png"
+            "32":"/images/CursorPlaceholder.png"
         },
         "default_popup": "popup.html"
     },
     "web_accessible_resources": [ 
-        "images/*.jpg",
-        "images/*.png" 
+        "images/old-paper.png",
+        "images/vignette.png",
+        "images/*.png",
+        "Fonts/treasure-map-deadhand-font/TreasureMapDeadhand-yLA3.ttf",
+        "Fonts/treasure-map-font/Treasuremap-Ea1vj.ttf",
+        "images/*.jpg" 
      ] 
 }

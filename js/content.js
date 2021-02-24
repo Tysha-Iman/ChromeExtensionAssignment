@@ -1,11 +1,16 @@
 console.log("extension is running!")
 
-// TRY: updating the text content of an element or set of elements on one or more pages
-$("h1").text("The big oof!")
+var	imgURL = chrome.runtime.getURL("images/old-paper.png");
+var imgURL2 = chrome.runtime.getURL("images/vignette.png");
 
-// TRY: adding a click event listener to an element that changes the background of that element to a new color
-var	imgURL = chrome.runtime.getURL("imgs/banner.jpg");
-$("header").after("<img	src=" + imgURL + "class='banner'>")
 
-// TRY: using a mouseenter event listener to update text to something new.
-$("div").on("click", myfunction)
+$("body").css("background-image", "url("+ imgURL +")");
+
+$("*").each( function () {
+    var $this = $(this);
+    if (parseInt($this.css("fontSize")) < 20) {
+        $this.css({ "font-size": "20px" });   
+    }
+});
+
+
