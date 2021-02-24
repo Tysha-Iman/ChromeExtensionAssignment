@@ -1,6 +1,8 @@
-#PIRATE FILTER CHROME EXTENSION 
+###PIRATE FILTER CHROME EXTENSION 
 
 The purpose of the extension was to make a pirate theme browser experience; but ultimately changed to me trying my best. 
+
+---
 
 ##Inspiration
 *[coffeelings](https://chrome.google.com/webstore/detail/coffeelings/hcbddpppkcnfjifbcfnhmelpemdoepkk)

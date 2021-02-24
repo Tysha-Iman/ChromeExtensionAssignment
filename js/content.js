@@ -32,27 +32,15 @@ for (var i = 0; i < elements.length; i++) {
     }
 }
 
-var cursorP = chrome.runtime.getURL("images/cursorpointer.png");
-var cursorH = chrome.runtime.getURL("images/cursorhover.png");
+// var cursorP = chrome.runtime.getURL("images/cursorpointer.png");
+// var cursorH = chrome.runtime.getURL("images/cursorhover.png");
 
-// $document.css({
+// $(document).css({
 //     'position': 'absolute', 
 //     'top':'5px',
 //     'left':'5px',
 //     'cursor': cursorH
 // });
-
-// var Normalwords = new array ["hello", "yes", "my", "?", "you"];
-// var PirateSlang = new array ["Ahoy, matey", "aye", "me", "Savvy?", "ye"];
-// var ourNewString = Normalwords
-//     .replace("hello", "Ahoy")
-//     .replace("yes", "aye")
-//     .replace("my", "me")
-//     .replace("?", "Savvy?")
-//     .replace("you", "ye");
-
-// console.log(ourNewString);
-
 
 // $("body").css("cursor" : "url("+ cursorP +")");
 
