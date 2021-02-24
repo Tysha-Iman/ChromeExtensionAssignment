@@ -14,12 +14,12 @@ $("*").each( function () {
 var cursorP = chrome.runtime.getURL("images/cursorpointer.png");
 var cursorH = chrome.runtime.getURL("images/cursorhover.png");
 
-$document.css({
-    'position': 'absolute', 
-    'top':'5px',
-    'left':'5px',
-    'cursor': cursorH
-});
+// $document.css({
+//     'position': 'absolute', 
+//     'top':'5px',
+//     'left':'5px',
+//     'cursor': cursorH
+// });
 
 // var Normalwords = new array ["hello", "yes", "my", "?", "you"];
 // var PirateSlang = new array ["Ahoy, matey", "aye", "me", "Savvy?", "ye"];
