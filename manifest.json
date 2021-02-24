@@ -15,16 +15,16 @@
      ],
     "action": {
         "default_icon": {
-            "32":"/images/CursorPlaceholder.png"
+            "32":"/images/icon.png"
         },
         "default_popup": "popup.html"
     },
     "web_accessible_resources": [ 
         "images/old-paper.png",
         "images/vignette.png",
+        "images/cursorhover.png",
+        "images/cursorpointer.png",
         "images/*.png",
-        "Fonts/treasure-map-deadhand-font/TreasureMapDeadhand-yLA3.ttf",
-        "Fonts/treasure-map-font/Treasuremap-Ea1vj.ttf",
         "images/*.jpg" 
      ] 
 }

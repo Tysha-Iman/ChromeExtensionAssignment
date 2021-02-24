@@ -14,36 +14,32 @@
 
 body {
      background-size: cover !important;
-     
 }
 
 main {
 	background-color: #e5d0ac;
-	box-shadow: 0px 0px 5px #30C0DB;
+	box-shadow: 0px 0px 5px #009AB6;
 }
 
 ul, div:not(body div) {
 	border-radius: 5px;
 	background-color: #e5d0ac; 
 	margin: 5px;
-	padding-left: 5px;
-	border: solid 2px #30C0DB;
-	box-shadow: 5px 5px 5px #30C0DB;
+	padding-left: 10px;
+	border: solid 2px #009AB6;
+	box-shadow: 5px 5px 5px #009AB6;
 }
-
 
 h1 {
 	font-family: 'treasuremap', 'normal' !important;
 }
 
-p, a {
+a {
 	font-family: 'Treasure Map Deadhand', 'normal' !important;
 	font-size: 20px !important;
-}
-
-a {
 	text-decoration: none;
-	color: #30C0DB !important;
+	background-color: #e5d0ac;
+	color: #009AB6 !important;
 	border-radius: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -51,14 +47,26 @@ a {
 
 a:hover {
 	border: solid 2px #66512A !important;
-	background-color: #30C0DB !important;
+	background-color: #009AB6 !important;
 	color: #66512A !important;
 	border-radius: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-/*#e5d0ac*/
+/*.cursor{
+   position: fixed;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #f5f5f5;
+   pointer-events: none;
+   mix-blend-mode: difference;
+   z-index: 999;
+   transition: transform 0.2s;
+ }*/
+
+
 
 
 
